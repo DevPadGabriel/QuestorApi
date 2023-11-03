@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestorApi", "QuestorApi\QuestorApi.csproj", "{DDB4BD07-76C5-4E8A-9344-C1A8BEC54611}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apresentacao", "Apresentacao", "{0F9F6F1F-397A-48D5-96CF-A276AD8C2DEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aplicacao", "aplicacao", "{8BE12794-3F50-4927-9E68-DE0ABE9BFC28}"
+	ProjectSection(SolutionItems) = preProject
+		QuestorApi\Aplicacao\AutoMapper.cs = QuestorApi\Aplicacao\AutoMapper.cs
+		QuestorApi\Aplicacao\BancoAplicacao.cs = QuestorApi\Aplicacao\BancoAplicacao.cs
+		QuestorApi\Aplicacao\BoletoAplicacao.cs = QuestorApi\Aplicacao\BoletoAplicacao.cs
+		QuestorApi\Aplicacao\FluentValidation.cs = QuestorApi\Aplicacao\FluentValidation.cs
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AplicacaoApi", "AplicacaoApi\AplicacaoApi.csproj", "{3540DAC1-ED0B-4CB7-8692-F6BA11A1C533}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DominioApi", "DominioApi\DominioApi.csproj", "{97E7A09A-F7A7-4450-A871-24E13EEDDDE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfraApi", "InfraApi\InfraApi.csproj", "{F4764696-D990-4463-A948-20124ABFDB66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{DCF58943-1B40-4147-B60F-50DF5837E5B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{FC0D00C6-C16F-49B1-8871-20A3CB10EF4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{8CB627B8-0683-49C9-8825-176D096DA72A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicação", "Aplicação", "{DB718995-9564-453D-B6F4-EE620F110195}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDB4BD07-76C5-4E8A-9344-C1A8BEC54611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB4BD07-76C5-4E8A-9344-C1A8BEC54611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB4BD07-76C5-4E8A-9344-C1A8BEC54611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB4BD07-76C5-4E8A-9344-C1A8BEC54611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3540DAC1-ED0B-4CB7-8692-F6BA11A1C533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3540DAC1-ED0B-4CB7-8692-F6BA11A1C533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3540DAC1-ED0B-4CB7-8692-F6BA11A1C533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3540DAC1-ED0B-4CB7-8692-F6BA11A1C533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E7A09A-F7A7-4450-A871-24E13EEDDDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E7A09A-F7A7-4450-A871-24E13EEDDDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E7A09A-F7A7-4450-A871-24E13EEDDDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E7A09A-F7A7-4450-A871-24E13EEDDDE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4764696-D990-4463-A948-20124ABFDB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4764696-D990-4463-A948-20124ABFDB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4764696-D990-4463-A948-20124ABFDB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4764696-D990-4463-A948-20124ABFDB66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDB4BD07-76C5-4E8A-9344-C1A8BEC54611} = {DCF58943-1B40-4147-B60F-50DF5837E5B8}
+		{3540DAC1-ED0B-4CB7-8692-F6BA11A1C533} = {DB718995-9564-453D-B6F4-EE620F110195}
+		{97E7A09A-F7A7-4450-A871-24E13EEDDDE0} = {FC0D00C6-C16F-49B1-8871-20A3CB10EF4B}
+		{F4764696-D990-4463-A948-20124ABFDB66} = {8CB627B8-0683-49C9-8825-176D096DA72A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7060694-3977-422D-A6A7-123188759325}
+	EndGlobalSection
+EndGlobal
